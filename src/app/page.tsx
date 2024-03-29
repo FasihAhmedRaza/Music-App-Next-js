@@ -1,5 +1,7 @@
 import FeaturedCourses from "@/components/FeaturedCourses";
 import HeroSection from "@/components/HeroSection";
+import MusicTestimonialCards from "@/components/TestimonialCards";
+import WhyChooseUs from "@/components/WhyChooseUs";
 
 
 
@@ -10,6 +12,8 @@ export default function Home() {
       <h1 className="text-3xl mx-auto text-center mt-0">hello Fasih Welcome</h1>
       <HeroSection/>
       <FeaturedCourses/>
+      <WhyChooseUs/>
+      <MusicTestimonialCards />
     </main>
 
 
