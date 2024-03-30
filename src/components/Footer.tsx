@@ -1,4 +1,4 @@
-
+import Link from "next/link"
 
 function Footer() {
     return (
@@ -80,7 +80,8 @@ function Footer() {
             <p>Phone: (123) 456-7890</p>
           </div>
           </div>
-          <p className="text-center text-xs pt-8">© 2024 Music School. All rights reserved.</p>
+          <p className="text-center text-xs pt-8">© 2024 Music School. All rights reserved. 
+          Made by <Link href={"https://www.fiverr.com/i_fasih_ahmed"}><span className="text-white">Fasih Ahmed</span> </Link>  </p>
       </footer>
     )
   }
